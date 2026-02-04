@@ -24,8 +24,7 @@ if not os.path.exists(DATA_FILE):
         writer.writerow(headers)
 
 # 3. Input: Ask the user what sign they are recording
-# sign_name = input("Enter the name of the Sign you are recording (e.g., Hello): ")
-sign_name = "Hello"  # Hardcoded for testing purposes
+sign_name = "Hello"  # Hardcoded for testing purposes (Change as needed for different signs)
 print(f"Press 's' to save a frame. Press 'q' to quit.")
 
 cap = cv2.VideoCapture(1)
